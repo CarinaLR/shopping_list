@@ -1,0 +1,86 @@
+/* General Styles */
+  *
+  {
+  box-sizing: border-box;
+  }
+
+ html
+ {
+   -webkit-font-smoothing: antialiased;
+   text-rendering: optimizelegibility;
+ }
+
+ body
+ {
+   background-color:lemonchiffon
+ }
+ /* header */
+ .container
+ {
+   text-align: center;
+   margin: 0 auto;
+   padding-bottom: 1em;
+ }
+ .logo
+ {
+   width: 10em;
+   height: 10em;
+ }
+ .intro
+ {
+   margin-top: 2.18em;
+ }
+ .intro h1
+ {
+   margin-top: 0.12em;
+ }
+
+ /*  reset list */
+ .resetcontainer
+ {
+   font-family: "Martel Sans", sans-serif;
+   font-weight: 400;
+   font-size: 0.18em;
+   left: 41.4em;
+   line-height: 1.43em;
+   margin-bottom: 2em;
+   text-align: left;
+   width:12.5em;
+   margin: 0 auto;
+ }
+
+ /*input*/
+.list-area-insertion input[type="text"]
+{
+  width: 16em;
+  height: 2.5em;
+  margin: 0;
+  padding: 0;
+}
+button[type="submit"]
+{
+  background-color:darkgray;
+  width: 6em;
+  height: 2.3em;
+  border-left-width: 0;
+  margin: o;
+  padding: 0;
+  border-style: none;
+  border: 1px solid rgb(9, 150, 32); 
+}
+ul, li 
+{
+  list-style: none;
+  padding-left: 0;
+  padding-top: 5px;
+}
+li
+{
+  border: 1px solid green;
+  background-color: azure;
+  border-radius: 5px;
+  height: 1.5em;
+  margin: 0 auto;
+  margin-top: 10px;
+  width: 14em;
+}
